@@ -1,0 +1,203 @@
+<!-- index.html often represents the home page of websites -->
+<!-- Styling should be made by CSS not HTML> -->
+
+<!DOCTYPE html>
+<!-- Tell Browsers this is an html5 document -->
+<html lang="en">
+  <!-- lang is languge -->
+  <head>
+    <title>Harrison Zheng Personal Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywodrs" content="HTML, CSS" />
+    <meta
+      name="description"
+      content="Jingyao(Harrison) Zheng's Personal Website"
+    />
+    <!-- charater set - a binary table, e.g. ASCII, utf-8 -->
+    <!-- CSS  -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      .Icon {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin: 10px;
+        float: inline-start;
+      }
+      .username {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Dont use Heading based on the its size. It is wrong -->
+    <!-- <h1>Heading 1</h1> -->
+    <header class="header">
+      <a href="#" class="logo">Portofolio. </a>
+
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#" >About</a>
+        <a href="#">Skill</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section class="home">        
+      <div class="home-content">
+        <div class="home-photo">
+            <img src="./images/HarrisonPhoto.jpg" alt="An image of Harrison" />
+          </div>
+        <h3>Hello and welcome! I'm</h3>
+        <h1>Jingyao Zheng</h1>
+        <h3>And I'm a <sapn class="text"></h3>
+        <p>
+          With Bachalor of Arts and Master of Engineering degrees from
+          the University of Cambridge, I specialize in Human-Computer
+          Interaction (HCI) and Information Engineering. My journey has been as
+          diverse as it has been fulfilling, extending from academic research to
+          social media.
+        </p>
+        <div class="home-sci">
+          <a
+            href="https://www.xiaohongshu.com/user/profile/599ec13c82ec3924f313b44b?xhsshare=CopyLink&appuid=599ec13c82ec3924f313b44b&apptime=1693832168"
+            target="_blank"
+          >
+            <img class="Icon" src="./images/Red.jpg" alt="Red" />
+          </a>
+          <a href="https://v.douyin.com/iejhf8k4/" target="_blank">
+            <img class="Icon" src="./images/TikTok.jpg" alt="TikTok" />
+          </a>
+          <a href="https://space.bilibili.com/399558032" target="_blank">
+            <img class="Icon" src="./images/Bilibili.jpg" alt="Bilibili" />
+          </a>
+          <a href="mailto:zhengjingyaoharrison@gmail.com">
+            <img class="Icon" src="./images/Mail.jpg" alt="Mail" />
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <script src="main.js"></script>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/HarrisonPhoto.jpg" alt="A Personal Image">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Research Areas</h4>
+            <p>I am deeply passionate about the intersection of humans and technology. My primary research focus lies in Mixed Reality application designs, a
+    cutting-edge field that offers exciting possibilities for reshaping our interactions with the digital world. I am also keenly interested in the
+    application of Large Language Models in multiple domains, including
+                healthcare, where the goal is to create more intuitive and efficient
+                human-computer interactions.</p>
+                
+            <h4>Social Media</h4>
+            <p>When I'm not buried in research papers or coding, you'll find me actively engaging with my online community. With a following of nearly 2 million on TikTok, 500K on Red, and 695K on Bilibili, I've become a notable influencer in Chinese social media. My content revolves around my academic life, the valuable lessons I've gleaned from my studies, and the insights I've gained from the books I devour.
+
+            <h4>Why I Do What I Do</h4>
+            <p>My aim is to bridge the gap between technology and everyday life, making complex subjects accessible and relatable to everyone. Whether it's through my research or my social media platforms, I strive to enlighten, entertain, and inspire.
+        </div>
+    </section>
+
+    <h1 class="sub-title">My<span>Skills</span></h1>
+    <section>
+        <div class="container" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: yellow;" class='bx bxl-python'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i style="color: rgb(0, 0, 0);" class='bx bxl-unity'></i>
+                    <div class="info">
+                        <span>Unity</span>
+                    </div>
+                    <div class="progress-line unity">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: rgb(0, 187, 249);" class='bx bxl-c-plus-plus'></i>
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-line c">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: rgb(235, 47, 0);" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <span>HTML&Css</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">100%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- <a href="about.html">
+      <img src="images/Photo.jpg" alt="An Image of Harrison" />
+    </a>
+    -->
+    <!-- a represents archor -->
+
+    <!-- <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6> -->
+
+    <!-- alt alternative text description of the image -->
+    <!-- Dont have any child elements -->
+  </body>
+</html>
