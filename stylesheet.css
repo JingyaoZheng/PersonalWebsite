@@ -9,7 +9,7 @@
 body
 {
     color: #ededed;
-    background: url(images/Background.jpg);
+    background: url(images/richard-lee-FixxdTqC8zg-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -39,11 +39,13 @@ body
 }
 
 .navbar a {
+    position: relative;
+    right: 50%;
     display: inline-block;
     font-size: 25px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
     margin-left: 35px;
     transition: .3s;
     opacity: 0;
@@ -169,7 +171,7 @@ body
 }
 
 .about{
-    color: #ededed;
+    color: #000000;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -201,7 +203,7 @@ body
 }
 
 .about-text p{
-    color: aliceblue;
+    color: #000000;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
@@ -220,6 +222,7 @@ section{
 }
 
 .heading1{
+    color: #000000;
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -250,6 +253,7 @@ section{
 .Technical-bars .bar .info span{
     font-size: 17px;
     font-weight: 500;
+    color: #000000;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
@@ -309,7 +313,7 @@ section{
 }
 
 .progress-line.python span::after{
-    content: "90%";
+    content: "95%";
 }
 
 .progress-line.unity span::after{
@@ -317,11 +321,11 @@ section{
 }
 
 .progress-line.c span::after{
-    content: "90%";
+    content: "85%";
 }
 
 .progress-line.html span::after{
-    content: "90%";
+    content: "70%";
 }
 
 
@@ -429,6 +433,7 @@ section{
     font-weight: 500;
     animation: showText 0.5s 1.0s linear forwards;
     opacity: 0;
+    color: #000000;
 }
 
 .radial-bar .text{
@@ -442,6 +447,7 @@ section{
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
+    color: #000000;
 } 
 
 @keyframes showText{
